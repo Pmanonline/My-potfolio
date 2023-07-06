@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -15,12 +19,24 @@
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
+      // {
+      //   "name": "next"
+      // }
+      {
+        "name": "my-package",
+        "scripts": {
+          "build": "babel src -d lib",
+          "prebuild": "jest"
+        }
+      },
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
   "include": [
@@ -28,7 +44,11 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/Navbar.jsx"
+    "components/Navbar.jsx",
+    "app/layout.jsx",
+    "app/page.jsx"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

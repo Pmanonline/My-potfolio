@@ -72,7 +72,7 @@ const Contact = () => {
   return (
     <>
       <div
-        className=" w-ful h-screen text-center mod:mb-[40rem] "
+        className=" w-ful h-screen text-center mod:mb-[45rem]  xs:mb-[60px]"
         style={{
           backgroundImage: `url(${contactbg.src})`,
           height: "68vw",

@@ -55,7 +55,7 @@ const Main = () => {
             <div className=" ">
               <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                 <Link
-                  href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                  href="https://www.linkedin.com/in/uche-c-peter/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -65,7 +65,7 @@ const Main = () => {
                 </Link>
 
                 <Link
-                  href="https://github.com/fireclint"
+                  href="https://github.com/pmanonline"
                   target="_blank"
                   rel="noreferrer"
                 >

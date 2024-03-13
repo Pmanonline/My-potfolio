@@ -18,17 +18,17 @@ const Resume = () => {
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center">Clint Briley</h2>
+          <h2 className="text-center">Peter Uche Chidubem</h2>
           <div className="flex">
             <a
-              href="https://www.linkedin.com/in/clint-briley-50056920a/"
+              href="https://www.linkedin.com/in/uche-c-peter/"
               target="_blank"
               rel="noreferrer"
             >
               <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
-              href="https://github.com/fireclint"
+              href="https://github.com/pmanonline"
               target="_blank"
               rel="noreferrer"
             >
@@ -39,7 +39,7 @@ const Resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Proven Leadership <span className="px-1">|</span> Web Development{" "}
+              Proven Leadership <span className="px-1">|</span> Web Development
               <span className="px-1">|</span> Complex Problem Solving
             </p>
           </div>
@@ -50,15 +50,18 @@ const Resume = () => {
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+          I am a self-motivated and passionate IT personnel with a keen interest
+          in full stack web development. Proficient in writing HTML, CSS,
+          Tailwind, SASS, Git & Github, Figma, and Bootstrap. Experienced in
+          database management with SQL and MongoDB databases. Able to design and
+          implement responsive user interfaces, ensuring seamless user
+          experiences. Strong problem-solving and collaboration abilities,
+          dedicated to delivering high-quality code and meeting project
+          deadlines. Continuously learning and adapting to the latest industry
+          trends to deliver cutting-edge solutions. Analytical, innovative, and
+          motivated web development professional with experience in customer
+          service, team leadership, and organizational effectiveness in
+          fast-paced and challenging environments.
         </p>
 
         {/* Skills */}
@@ -92,13 +95,13 @@ const Resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">INFINITE TECH</span>
-            <span className="px-2">|</span>Dallas, TX
+            <span className="font-bold italic">
+              8thGear Hub & Venture Studio
+            </span>
+            <span className="px-2">|</span>Lagos, Nigeria
           </p>
-          <p className="py-1 italic">
-            Front End Web Developer & Web Master (2013 - Current)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          <p className="py-1 italic">Front End Web Developer (2022 - 2023)</p>
+          {/* <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Ensured comprehensive mobile responsive UI layouts with
               understanding of HTML, CSS, and JavaScript.
@@ -115,75 +118,142 @@ const Resume = () => {
               Platform migration managing DNS servers as well as MX records and
               ensuring a smooth migration process.
             </li>
+          </ul> */}
+          <ul className="list-disc list-inside px-4">
+            <li className="mb-2">
+              Collaborated with UI/UX designers to create wireframes and visual
+              design mockups for websites/web apps.
+            </li>
+            <li className="mb-2">
+              Conducted research to understand target audience, competitors, and
+              goals of the website.
+            </li>
+            <li className="mb-2">
+              Built front-end responsive websites using HTML, CSS, JavaScript,
+              React, Next.js, based on approved designs.
+            </li>
+            <li className="mb-2">
+              Collaborated with content creators and colleagues to ensure
+              website responsiveness and user-friendly content.
+            </li>
+            <li className="mb-2">
+              Prepared websites for launch on live servers or hosting platforms.
+            </li>
           </ul>
         </div>
 
         {/* Personal Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">
-              Teaching & Mentoring Web Development
-            </span>
-            <span className="px-2">|</span>Dallas, TX
+            <span className="font-bold italic">Diamond-Heart-Technologies</span>
+            <span className="px-2">|</span>Lagos, Nigeria
           </p>
-          <p className="py-1 italic">
-            Code Commerce - Youtube Channel (2021 - Current)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+          <p className="py-1 italic">Front End Web Developer (2023)</p>
+          <ul className="list-disc list-inside px-4">
+            <li className="mb-2">
+              Conducted client conversations to understand website journey,
+              mission, and vision.
             </li>
-            <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+            <li className="mb-2">
+              Collaborated with UI/UX designers to create wireframes and visual
+              design mockups for websites/web apps.
+            </li>
+            <li className="mb-2">
+              Conducted research to understand target audience, competitors, and
+              goals of the website.
+            </li>
+            <li className="mb-2">
+              Built front-end responsive websites using HTML, CSS, JavaScript,
+              React.js, Next.js, and back-end using Express, Node.js, Redux,
+              based on approved designs and functionality.
+            </li>
+            <li className="mb-2">
+              Worked on back-end, setting up server, database, and business
+              logic as needed.
+            </li>
+            <li className="mb-2">
+              Ensured website responsiveness and user-friendly content.
+            </li>
+            <li className="mb-2">
+              Prepared websites for launch on live servers or hosting platforms.
             </li>
           </ul>
         </div>
 
         {/*  */}
-        <h5 className="text-center underline text-[18px] py-4">
-          Other Professional Experience
-        </h5>
-
-        {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold">CITY OF SHERMAN, TX</span>
-            <span className="px-2">|</span>Sherman, TX
+            <span className="font-bold italic">NEA Global Technology</span>
+            <span className="px-2">|</span>NAirobi, Kenya
           </p>
-          <p className="py-1 italic">Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+          <p className="py-1 italic">Front End Web Developer (2023- Current)</p>
+          <ul className="list-disc list-inside px-4">
+            <li className="mb-2">
+              Conducted client conversations to understand website journey,
+              mission, and vision.
             </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
+            <li className="mb-2">
+              Collaborated with UI/UX designers to create wireframes and visual
+              design mockups for websites/web apps.
             </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
+            <li className="mb-2">
+              Conducted research to understand target audience, competitors, and
+              goals of the website.
             </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
+            <li className="mb-2">
+              Built front-end responsive websites using HTML, CSS, JavaScript,
+              React.js, Next.js, and back-end using Express, Node.js, Redux,
+              based on approved designs and functionality.
             </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+            <li className="mb-2">
+              Worked on back-end, setting up server, database, and business
+              logic as needed.
+            </li>
+            <li className="mb-2">
+              Ensured website responsiveness and user-friendly content.
+            </li>
+            <li className="mb-2">
+              Prepared websites for launch on live servers or hosting platforms.
             </li>
           </ul>
         </div>
+        {/*  */}
+        {/* Education */}
+        <div className="py-4">
+          <h5 className=" underline text-[18px] py-4">Education</h5>
+          <p className="py-2">
+            <h4>
+              Michael Okpara University of Agriculture Umudike, Abia State,
+            </h4>
+            <span className=" italic"> Bachelor of Science (B.Sc)</span>{" "}
+            <br></br>
+            <span className=" font-medium">
+              Computer Science
+            </span> <br></br>{" "}
+            <span className=" font-extralight">completed in 2017.</span>
+          </p>
+        </div>
+        {/*  */}
+        {/* Languages */}
+        <div className="py-4">
+          <h5 className=" underline text-[18px] ">Languages</h5>
+          <p className="py-2">English (Fluent)</p>
+        </div>
+
+        {/* Certifications */}
+        <div className="py-4">
+          <h5 className=" underline text-[18px]">Certifications</h5>
+          <ul className=" list-inside ">
+            <li>Jobberman Soft Skills Training</li>
+            <li>Web Development Certificate | Innkeeper.work</li>
+          </ul>
+        </div>
+        {/* References */}
+        <div className="py-4">
+          <h5 className=" underline text-[18px] ">References</h5>
+          <p className="py-2">Available on request.</p>
+        </div>
+        {/*  */}
       </div>
     </>
   );

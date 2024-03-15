@@ -136,11 +136,7 @@ const Contact = () => {
                       {successMessage && (
                         <p className=" text-blue">{successMessage}</p>
                       )}
-                      <div
-                        className=" flex justify-center align-middle mx-auto"
-                        data-aos="fade-down"
-                        data-aos-duration="1000"
-                      >
+                      <div className=" flex justify-center align-middle mx-auto">
                         <button
                           type="submit"
                           disabled={isLoading}

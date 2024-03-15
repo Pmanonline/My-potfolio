@@ -123,48 +123,40 @@ export const Skills = () => {
 
   return (
     <section id="skills">
-      <div className=" bg-white">
-        <div className="max-w-[1240px] m-auto md:grid grid-cols-3 ">
-          <div className="col-span-1  md:mt-[18rem] mid:text-center mid:px-5  ">
-            <h2 className=" mb-3">
-              <span className="text-myrecent">My Awesome</span> <br></br>{" "}
-              <span className=" text-success"> Services</span>
-            </h2>
-            <h3 className="">
-              I like to code things from scratch, and enjoy bringing ideas to
-              life in the browser. I speak languages and use frameworks like:
-            </h3>
+      <div className="bg-white">
+        <div className="grid grid-cols-3">
+          <div className="flex justify-center items-center flex-col col-span-1">
+            <h2 className="text-center">Discover Our </h2>
+            <h2 className="text-center">Offerings</h2>
+            <h2 className="text-center">and</h2>
+            <h2 className="text-center">Value Proposition</h2>
           </div>
 
-          <div className=" col-span-2 mid:hidden ml-[50px]">
-            <div className="grid grid-cols-2">
-              <div>
-                <div
-                  className="mb-10"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                >
-                  <ServiceCard1 />
-                </div>
-                <div
-                  className="ml-[4rem] mt-10"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                >
-                  <ServiceCard2 />
-                </div>
+          <div className=" col-span-2">
+            <div className="grid grid-cols-3 gap-4 justify-items-center text-center  items-center">
+              <div className="" data-aos="fade-right" data-aos-duration="1000">
+                <ServiceCard1 />
               </div>
-              <div>
-                <div
-                  className="mt-[9rem]"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                >
-                  <ServiceCard3 />
-                </div>
+              <div className="" data-aos="fade-right" data-aos-duration="1000">
+                <ServiceCard2 />
+              </div>
+              <div className="" data-aos="fade-right" data-aos-duration="1000">
+                <ServiceCard3 />
+              </div>
+              <div className="" data-aos="fade-right" data-aos-duration="1000">
+                <ServiceCard4 />
+              </div>
+              <div className="" data-aos="fade-right" data-aos-duration="1000">
+                <ServiceCard5 />
+              </div>
+              <div className="" data-aos="fade-right" data-aos-duration="1000">
+                <ServiceCard6 />
               </div>
             </div>
           </div>
+        </div>
+
+        {/* <div className="max-w-[1240px] m-auto md:grid grid-cols-3 ">
           <div>
             <div className="md:hidden justify-content-center mid:grid justify-center">
               <ServiceCard1 />
@@ -172,10 +164,9 @@ export const Skills = () => {
               <ServiceCard3 />
             </div>
           </div>
-          {/* tractions */}
+
           <Tractions />
-          {/* tractions */}
-        </div>
+        </div> */}
       </div>
     </section>
   );
@@ -184,30 +175,25 @@ export const Skills = () => {
 export const ServiceCard1 = () => {
   return (
     <>
-      <div className="">
-        <div
-          // style={{ width: "18rem", height: "22rem" }}
-          className={`flex  flex-col items-center rounded-br-[10px] rounded-tl-[10px]  rounded-bl-[10px]  rounded-tr-[10px] border-4 border-[#5AFBD9]   sm:max-w-[22vw]  mid:max-w-[30rem] mid:mx-4 my-5`}
-        >
-          <picture>
-            <Image
-              src={Cardimage1}
-              className="mb-2   rounded-tl-[7px]    rounded-tr-[7px]"
-              alt="### "
-            />
-          </picture>
-          <h3 className={`text-center font-bold text-xl text-midnightash`}>
-            UI/UX
-          </h3>
-          <p className={`mt-2 text-center text-base px-4  text-lightash`}>
-            Figma, Sketch, Photoshop, Adobe, Adobe xd
-          </p>
-          <button className="hover:scale-90 ease-in duration-300  relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple border-1.5 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none my-3">
-            <span className="relative px-5 py-2  transition-all ease-in duration-75 bg-white dark:bg-blue rounded-md group-hover:bg-opacity-0 ">
-              ReadMore
-            </span>
-          </button>
-        </div>
+      <div
+        // style={{ width: "18rem", height: "22rem" }}
+        className={`items-cente rounded-br-[10px] rounded-tl-[10px]  rounded-bl-[10px]  rounded-tr-[10px] border-4 border-[#5AFBD9]   sm:max-w-[22vw]  mid:max-w-[30rem] mid:mx-4 my-5`}
+      >
+        <picture>
+          <Image
+            src={Cardimage1}
+            className="mb-2   rounded-tl-[7px]    rounded-tr-[7px]"
+            alt="### "
+          />
+        </picture>
+        <h3 className={`text-center font-bold text-xl text-midnightash`}>
+          Mobile Responsive
+        </h3>
+        <p className={`mt-2 text-center text-base px-4  text-lightash`}>
+          Adaptable on any device dramatically boosts user experience, increases
+          time spent on your website, and improves readability. Small or large,
+          My designs are compatible with any device.
+        </p>
       </div>
     </>
   );
@@ -215,30 +201,24 @@ export const ServiceCard1 = () => {
 export const ServiceCard2 = () => {
   return (
     <>
-      <div className="">
-        <div
-          // style={{ width: "18rem", height: "22rem" }}
-          className={`flex  flex-col items-center rounded-br-[10px] rounded-tl-[10px]  rounded-bl-[10px]  rounded-tr-[10px] border-4 border-[#5AFBD9]   sm:max-w-[22vw]  mid:max-w-[30rem] mid:mx-4 my-5`}
-        >
-          <picture>
-            <Image
-              src={Cardimage1}
-              className="mb-2   rounded-tl-[7px]    rounded-tr-[7px]"
-              alt="### "
-            />
-          </picture>
-          <h3 className={`text-center font-bold text-xl text-midnightash`}>
-            UI/UX
-          </h3>
-          <p className={`mt-2 text-center text-base px-4  text-lightash`}>
-            Figma, Sketch, Photoshop, Adobe, Adobe xd
-          </p>
-          <button className="hover:scale-90 ease-in duration-300  relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple border-1.5 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none my-3">
-            <span className="relative px-5 py-2  transition-all ease-in duration-75 bg-white dark:bg-blue rounded-md group-hover:bg-opacity-0 ">
-              ReadMore
-            </span>
-          </button>
-        </div>
+      <div
+        // style={{ width: "18rem", height: "22rem" }}
+        className={`items-cente rounded-br-[10px] rounded-tl-[10px]  rounded-bl-[10px]  rounded-tr-[10px] border-4 border-[#5AFBD9]   sm:max-w-[22vw]  mid:max-w-[30rem] mid:mx-4 my-5`}
+      >
+        <picture>
+          <Image
+            src={Cardimage1}
+            className="mb-2   rounded-tl-[7px]    rounded-tr-[7px]"
+            alt="### "
+          />
+        </picture>
+        <h3 className={`text-center font-bold text-xl text-midnightash`}>
+          Fast Load Speed
+        </h3>
+        <p className={`mt-2 text-center text-base px-4  text-lightash`}>
+          When designing or constructing a Web application, one of my top
+          priorities is to ensure fast load speeds and lag-free interaction.
+        </p>
       </div>
     </>
   );
@@ -247,30 +227,103 @@ export const ServiceCard2 = () => {
 export const ServiceCard3 = () => {
   return (
     <>
-      <div className="">
-        <div
-          // style={{ width: "18rem", height: "22rem" }}
-          className={`flex  flex-col items-center rounded-br-[10px] rounded-tl-[10px]  rounded-bl-[10px]  rounded-tr-[10px] border-4 border-[#5AFBD9]   sm:max-w-[22vw]  mid:max-w-[30rem] mid:mx-4 my-5`}
-        >
-          <picture>
-            <Image
-              src={Cardimage1}
-              className="mb-2   rounded-tl-[7px]    rounded-tr-[7px]"
-              alt="### "
-            />
-          </picture>
-          <h3 className={`text-center font-bold text-xl text-midnightash`}>
-            UI/UX
-          </h3>
-          <p className={`mt-2 text-center text-base px-4  text-lightash`}>
-            Figma, Sketch, Photoshop, Adobe, Adobe xd
-          </p>
-          <button className="hover:scale-90 ease-in duration-300  relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple border-1.5 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none my-3">
-            <span className="relative px-5 py-2  transition-all ease-in duration-75 bg-white dark:bg-blue rounded-md group-hover:bg-opacity-0 ">
-              ReadMore
-            </span>
-          </button>
-        </div>
+      <div
+        // style={{ width: "18rem", height: "22rem" }}
+        className={`items-cente rounded-br-[10px] rounded-tl-[10px]  rounded-bl-[10px]  rounded-tr-[10px] border-4 border-[#5AFBD9]   sm:max-w-[22vw]  mid:max-w-[30rem] mid:mx-4 my-5`}
+      >
+        <picture>
+          <Image
+            src={Cardimage1}
+            className="mb-2   rounded-tl-[7px]    rounded-tr-[7px]"
+            alt="### "
+          />
+        </picture>
+        <h3 className={`text-center font-bold text-xl text-midnightash`}>
+          Web Design
+        </h3>
+        <p className={`mt-2 text-center text-base px-4  text-lightash`}>
+          I value simple content structure, clean design patterns for MOBILE
+          APP, WEB APP, LOGOS etc, and thoughtful interactions. That sets a
+          positve first impression on your audience
+        </p>
+      </div>
+    </>
+  );
+};
+
+export const ServiceCard4 = () => {
+  return (
+    <>
+      <div
+        // style={{ width: "18rem", height: "22rem" }}
+        className={`items-cente rounded-br-[10px] rounded-tl-[10px]  rounded-bl-[10px]  rounded-tr-[10px] border-4 border-[#5AFBD9]   sm:max-w-[22vw]  mid:max-w-[30rem] mid:mx-4 my-5`}
+      >
+        <picture>
+          <Image
+            src={Cardimage1}
+            className="mb-2   rounded-tl-[7px]    rounded-tr-[7px]"
+            alt="### "
+          />
+        </picture>
+        <h3 className={`text-center font-bold text-xl text-midnightash`}>
+          Clean Code
+        </h3>
+        <p className={`mt-2 text-center text-base px-4  text-lightash`}>
+          Utilize and Improve your overall performance with the use a lite and
+          highly maintainable code base
+        </p>
+      </div>
+    </>
+  );
+};
+
+export const ServiceCard5 = () => {
+  return (
+    <>
+      <div
+        // style={{ width: "18rem", height: "22rem" }}
+        className={`items-cente rounded-br-[10px] rounded-tl-[10px]  rounded-bl-[10px]  rounded-tr-[10px] border-4 border-[#5AFBD9]   sm:max-w-[22vw]  mid:max-w-[30rem] mid:mx-4 my-5`}
+      >
+        <picture>
+          <Image
+            src={Cardimage1}
+            className="mb-2   rounded-tl-[7px]    rounded-tr-[7px]"
+            alt="### "
+          />
+        </picture>
+        <h3 className={`text-center font-bold text-xl text-midnightash`}>
+          SEO
+        </h3>
+        <p className={`mt-2 text-center text-base px-4  text-lightash`}>
+          Increase your website's ranking on search engine results pages with
+          "Search Engine Optimization"
+        </p>
+      </div>
+    </>
+  );
+};
+
+export const ServiceCard6 = () => {
+  return (
+    <>
+      <div
+        // style={{ width: "18rem", height: "22rem" }}
+        className={`items-cente rounded-br-[10px] rounded-tl-[10px]  rounded-bl-[10px]  rounded-tr-[10px] border-4 border-[#5AFBD9]   sm:max-w-[22vw]  mid:max-w-[30rem] mid:mx-4 my-5`}
+      >
+        <picture>
+          <Image
+            src={Cardimage1}
+            className="mb-2   rounded-tl-[7px]    rounded-tr-[7px]"
+            alt="### "
+          />
+        </picture>
+        <h3 className={`text-center font-bold text-xl text-midnightash`}>
+          Intuitive
+        </h3>
+        <p className={`mt-2 text-center text-base px-4  text-lightash`}>
+          Strong preference for user-friendly, Intuitive UX/UI. That certainly
+          helps to drive traffic to your website.
+        </p>
       </div>
     </>
   );

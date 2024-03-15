@@ -9,6 +9,31 @@ import Typed from "react-typed";
 import Navbar from "./Navbar";
 
 const Main = () => {
+  // const downloadFile = () => {
+  //   window.location.href =
+  //     "https://my-potfolio-kappa.vercel.app/public/assets/myCVUpdated.pdf";
+  // };
+  // const downloadFile = () => {
+  //   const timestamp = new Date().getTime(); // Get current timestamp
+  //   const filename = `myCv(uche-peter-chidubem)-${timestamp}.pdf`; // Append timestamp to filename
+  //   const fileUrl =
+  //     "https://my-potfolio-kappa.vercel.app/public/assets/myCVUpdated.pdf"; // Your file URL
+
+  //   const anchorElement = document.createElement("a");
+  //   anchorElement.href = fileUrl;
+  //   anchorElement.download = filename;
+  //   anchorElement.click();
+  // };
+  const downloadFile = () => {
+    const filename = "myCv(uche-peter-chidubem).pdf"; // Specify your custom filename here
+    const fileUrl = "/public/assets/myCVUpdated.pdf"; // Relative path to your PDF file
+
+    const anchorElement = document.createElement("a");
+    anchorElement.href = fileUrl;
+    anchorElement.download = filename;
+    anchorElement.click();
+  };
+
   return (
     <>
       {/* large screen start */}
@@ -90,19 +115,38 @@ const Main = () => {
               {/* <button className="rounded-tr-[10px]  rounded-bl-[10px] rounded-tl-[5px] rounded-br-[5px]    px-4 py-1 hover:scale-110 ease-in duration-300 bg-[#FF7B57] text-lg mr-3 hover:bg-[#FFBF49] text-white ">
                 Contact Now
               </button> */}
-              <button className="hover:scale-90 ease-in duration-300  relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple border-1.5 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none ">
-                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-blue rounded-md group-hover:bg-opacity-0 ">
-                  Contact Now
-                </span>
-              </button>
-              {/* <button className="rounded-tr-[10px]  rounded-bl-[10px] rounded-tl-[5px] rounded-br-[5px]    px-4 py-1 hover:scale-110 ease-in duration-300 bg-[#FF7B57] text-lg hover:bg-[#FFBF49] text-white">
-                Download CV
-              </button> */}
-              <button className="hover:scale-90 ease-in duration-300  relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple border-1.5 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none ">
+
+              <Link href="/#contact">
+                <button className="hover:scale-90 ease-in duration-300  relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple border-1.5 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none ">
+                  <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-blue rounded-md group-hover:bg-opacity-0 ">
+                    Contact Now
+                  </span>
+                </button>
+              </Link>
+
+              <Link href="/#contacts"></Link>
+
+              <button
+                onClick={downloadFile}
+                className="hover:scale-90 ease-in duration-300  relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple border-1.5 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none "
+              >
                 <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-blue rounded-md group-hover:bg-opacity-0 ">
                   Download CV
                 </span>
               </button>
+              {/* <button
+                onClick={() => {
+                  const link = document.createElement("a");
+                  link.href = ".";
+                  link.download = "your-file-name.pdf";
+                  link.click();
+                }}
+                className="hover:scale-90 ease-in duration-300 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-purple border-1.5 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none"
+              >
+                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-blue rounded-md group-hover:bg-opacity-0">
+                  Download CV
+                </span>
+              </button> */}
             </div>
           </div>
         </div>

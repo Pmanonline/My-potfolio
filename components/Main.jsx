@@ -10,23 +10,12 @@ import Navbar from "./Navbar";
 
 const Main = () => {
   // const downloadFile = () => {
-  //   window.location.href =
-  //     "https://my-potfolio-kappa.vercel.app/public/assets/myCVUpdated.pdf";
-  // };
-  // const downloadFile = () => {
-  //   const timestamp = new Date().getTime(); // Get current timestamp
-  //   const filename = `myCv(uche-peter-chidubem)-${timestamp}.pdf`; // Append timestamp to filename
-  //   const fileUrl =
-  //     "https://my-potfolio-kappa.vercel.app/public/assets/myCVUpdated.pdf"; // Your file URL
-
-  //   const anchorElement = document.createElement("a");
-  //   anchorElement.href = fileUrl;
-  //   anchorElement.download = filename;
-  //   anchorElement.click();
+  //   window.location.href = "/public/assets/myCVUpdated.pdf";
   // };
   const downloadFile = () => {
     const filename = "myCv(uche-peter-chidubem).pdf"; // Specify your custom filename here
-    const fileUrl = "/public/assets/myCVUpdated.pdf"; // Relative path to your PDF file
+    const fileUrl =
+      "https://my-potfolio-kappa.vercel.app/assets/myCVUpdated.pdf"; // URL to the PDF file on your website
 
     const anchorElement = document.createElement("a");
     anchorElement.href = fileUrl;

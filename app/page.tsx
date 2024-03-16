@@ -15,6 +15,7 @@ import Main from "../components/Main";
 import Contact from "../components/Contact";
 import ScrollButton from "../components/scrollToTop";
 import Footer from "../components/footer";
+import Paralax from "../components/paralax";
 
 const Home = () => {
   return (
@@ -23,7 +24,8 @@ const Home = () => {
 
       <Main />
       <About />
-      <Skills />
+      {/* <Skills /> */}
+      <Paralax />
       <Projects />
       <Contact />
       <ScrollButton />

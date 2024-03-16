@@ -83,8 +83,6 @@ const Contact = () => {
                           name="name"
                           value={name}
                           onChange={(e) => setName(e.target.value)}
-                          data-aos="fade-down"
-                          data-aos-duration="1000"
                           className="border-2 rounded-lg p-3 flex border-blue focus:outline-[#5AFBD9] "
                           type="text"
                         />
@@ -97,8 +95,6 @@ const Contact = () => {
                           name="name"
                           value={phone}
                           onChange={(e) => setPhone(e.target.value)}
-                          data-aos="fade-down"
-                          data-aos-duration="1000"
                           className="border-2 rounded-lg p-3 flex border-blue focus:outline-[#5AFBD9] "
                           type="tel"
                         />
@@ -110,8 +106,6 @@ const Contact = () => {
                           required
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
-                          data-aos="fade-down"
-                          data-aos-duration="1000"
                           className="border-2 rounded-lg p-3 flex border-blue focus:outline-[#5AFBD9] "
                           type="email"
                           name="email"
@@ -125,8 +119,6 @@ const Contact = () => {
                         <textarea
                           value={message}
                           onChange={(e) => setMessage(e.target.value)}
-                          data-aos="fade-down"
-                          data-aos-duration="1000"
                           className="border-2 rounded-lg p-3 border-blue focus:outline-[#5AFBD9]"
                           rows="10"
                           name="message"

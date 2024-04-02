@@ -4,6 +4,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import contactbg from "../public/assets/contactbg.png";
 import contactbg1 from "../public/assets/contactbg1.png";
+import { FaWhatsapp } from "react-icons/fa6";
+import { MdCall } from "react-icons/md";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -66,11 +68,21 @@ const Contact = () => {
       >
         <div id="contact" className="w-full lg:h-screen mt-[7rem]">
           <div className="max-w-[1240px] m-auto px-2 py-16 w-full  pt-[7rem]">
-            {/* pt-[9rem] contQ1:pt-[16rem] */}
-            {/* <p className="text-xl tracking-widest uppercase text-[#5651e5]">
-              Contact
-            </p> */}
             <h2 className="py-4  mod:text-2xl text-white">Get In Touch</h2>
+
+            <div className="flex justify-around max-w-[250px] mx-aut  ml-[18em] py-5">
+              <a
+                href="https://wa.me/+2347062916027"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp className="text-white w-[35px] h-[35px] hover:scale-110 hover:bg-white hover:text-blue hover:rounded-full hover:p-1  transform transition-all duration-300 ease-out cursor-pointer" />
+              </a>
+              <a href="tel:+2347062916027">
+                <MdCall className="text-white w-[35px] h-[35px] hover:scale-110 hover:bg-white hover:text-blue hover:rounded-full hover:p-1  transform transition-all duration-300 ease-out cursor-pointer" />
+              </a>
+            </div>
+
             <div className="justify-center align-middle mx-auto  ">
               <div className="grid lg:grid-cols sm:max-w-[35rem] gap-8 mx-auto bg-white  rounded-2xl ">
                 <div className=" w-full h-auto shadow-lg shadow-blue  rounded-2xl lg:p-4">
@@ -87,19 +99,7 @@ const Contact = () => {
                           type="text"
                         />
                       </div>
-                      <div className="flex flex-col">
-                        <label className="uppercase text-sm py-2">
-                          Phone Number
-                        </label>
-                        <input
-                          name="name"
-                          value={phone}
-                          onChange={(e) => setPhone(e.target.value)}
-                          className="border-2 rounded-lg p-3 flex border-blue focus:outline-[#5AFBD9] "
-                          type="tel"
-                        />
-                      </div>
-                      {/* </div> */}
+
                       <div className="flex flex-col py-2">
                         <label className="uppercase text-sm py-2">Email</label>
                         <input

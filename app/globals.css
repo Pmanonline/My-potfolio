@@ -42,3 +42,11 @@ a {
 li {
   list-style: none;
 }
+
+.card-container:hover .icon-container {
+  background-color: blue;
+  color: white;
+  border-radius: 9999px;
+  transform: scale(1.2);
+  transition: transform 0.3s ease-out;
+}

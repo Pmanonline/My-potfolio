@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "8thgear hub",
+    "overview": "I built this application in React JS and is hosted on GitHub pages...",
+    "technologies": ["React", "Tailwind", "JavaScript", "Firebase", "IMDB API"]
+  },
+  {
+    "id": 2,
+    "title": "inkeeper LMS",
+    "overview": "This app features real-time cryptocurrency prices...",
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+  },
+  {
+    "id": 3,
+    "title": "mindAfrik",
+    "overview": "This app features real-time cryptocurrency prices...",
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+  },
+  {
+    "id": 4,
+    "title": "haven",
+    "overview": "This app features real-time cryptocurrency prices...",
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+  },
+  {
+    "id": 5,
+    "title": "market Station",
+    "overview": "This app features real-time cryptocurrency prices...",
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+  },
+  {
+    "id": 6,
+    "title": "Diamonf Heart technology",
+    "overview": "This app features real-time cryptocurrency prices...",
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+  }
+]

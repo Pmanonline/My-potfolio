@@ -70,19 +70,6 @@ const Contact = () => {
           <div className="max-w-[1240px] m-auto px-2 py-16 w-full  pt-[7rem]">
             <h2 className="py-4  mod:text-2xl text-white">Get In Touch</h2>
 
-            <div className="flex justify-around max-w-[250px] mx-aut  ml-[18em] py-5">
-              <a
-                href="https://wa.me/+2347062916027"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaWhatsapp className="text-white w-[35px] h-[35px] hover:scale-110 hover:bg-white hover:text-blue hover:rounded-full hover:p-1  transform transition-all duration-300 ease-out cursor-pointer" />
-              </a>
-              <a href="tel:+2347062916027">
-                <MdCall className="text-white w-[35px] h-[35px] hover:scale-110 hover:bg-white hover:text-blue hover:rounded-full hover:p-1  transform transition-all duration-300 ease-out cursor-pointer" />
-              </a>
-            </div>
-
             <div className="justify-center align-middle mx-auto  ">
               <div className="grid lg:grid-cols sm:max-w-[35rem] gap-8 mx-auto bg-white  rounded-2xl ">
                 <div className=" w-full h-auto shadow-lg shadow-blue  rounded-2xl lg:p-4">
@@ -140,6 +127,23 @@ const Contact = () => {
                         </button>
                       </div>
                     </form>
+                    {/*  */}
+                    <p className="mt-5  text-start italic underline text-gray-400">
+                      you can call us or <br></br> send a whatsapp message
+                    </p>
+                    <div className="flex sm:justify-around sm:max-w-[250px] mx-aut    mt-2">
+                      <a
+                        href="https://wa.me/+2347062916027"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaWhatsapp className="text-blue w-[35px] h-[35px] hover:scale-110 hover:bg-blue hover:text-white hover:rounded-full hover:p-1  transform transition-all duration-300 ease-out cursor-pointer mod:mx-5 mod:mr-[4rem]" />
+                      </a>
+                      <a href="tel:+2347062916027">
+                        <MdCall className="text-blue w-[35px] h-[35px] hover:scale-110 hover:bg-blue hover:text-white hover:rounded-full hover:p-1  transform transition-all duration-300 ease-out cursor-pointer" />
+                      </a>
+                    </div>
+                    {/*  */}
                   </div>
                 </div>
               </div>

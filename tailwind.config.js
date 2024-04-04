@@ -43,7 +43,7 @@ module.exports = {
         // // => @media (min-width: 1536px) { ... }
         mod: { max: "639px" },
         minlg: { max: "1023px" },
-        minlg2: { max: "850px", min: "767px" },
+        minlg2: { max: "767px", min: "639px" },
         mid: { max: "767px" },
         contQ1: { max: "980px" },
 

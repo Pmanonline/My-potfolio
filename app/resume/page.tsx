@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/footer";
 
 const Resume = () => {
   return (
@@ -255,6 +256,7 @@ const Resume = () => {
         </div>
         {/*  */}
       </div>
+      <Footer />
     </>
   );
 };

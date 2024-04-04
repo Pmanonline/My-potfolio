@@ -9,12 +9,12 @@ const Paralax = () => {
   const isDesktopOrLarger = useIsDesktopOrLarger();
 
   return (
-    <div id="skills">
-      <div className="flex h-48 items-center justify-center">
+    <div id="skills" className="my-16">
+      {/* <div className="flex h-48 items-center justify-center">
         <span className="font-semibold uppercase text-neutral-500">
           Scroll down
         </span>
-      </div>
+      </div> */}
       <div className="ml-[50px]">
         <p className="uppercase text-xl tracking-widest text-[#5651e5] py-2">
           Services
@@ -33,12 +33,12 @@ const Paralax = () => {
           ))}
         </div>
       )}
-
+      {/* 
       <div className="flex h-48 items-center justify-center">
         <span className="font-semibold uppercase text-neutral-500">
           Scroll Up
         </span>
-      </div>
+      </div> */}
 
       {/* </div> */}
     </div>
@@ -66,67 +66,11 @@ const HorizontalScrollCarousel = () => {
   );
 };
 
-// const Card = ({ card }) => {
-//   return (
-//     <div
-//       key={card.id}
-//       className="group relative h-[400px] w-[350px] overflow-hidden bg-neutral-200 mx-auto "
-//     >
-//       <div
-//         style={{
-//           backgroundImage: `url(${card.url})`,
-//           backgroundSize: "cover",
-//           backgroundPosition: "center",
-//         }}
-//         className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
-//       ></div>
-//       <div className="absolute inset-0 flex flex-col">
-//         <div className="mx-auto mt-3">
-//           <div className="cursor-pointer transform transition-all hover:bg-blue-500 hover:text-white hover:scale-110">
-//             {card.icon}
-//           </div>
-//         </div>
-//         <h3 className="text-center bg-gradient-to-br from-white/20 to-white/10 p-8 text-xl font-black uppercase text-blue backdrop-blur-lg mt-3">
-//           {card.title}
-//         </h3>
-//         <h3 className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-center text-black backdrop-blur-lg">
-//           {card.description}
-//         </h3>
-//       </div>
-//     </div>
-//   );
-// };
-// const Card = ({ card }) => {
-//   return (
-//     <div
-//       key={card.id}
-//       className="group relative h-[400px] w-[350px] overflow-hidden bg-neutral-200 mx-auto cursor-pointer transform transition-all hover:bg-blue-500 hover:text-blue "
-//     >
-//       <div
-//         style={{
-//           backgroundImage: `url(${card.url})`,
-//           backgroundSize: "cover",
-//           backgroundPosition: "center",
-//         }}
-//         className="absolute inset-0 z-0 transition-transform duration-300 "
-//       ></div>
-//       <div className="absolute inset-0 flex flex-col">
-//         <div className="mx-auto mt-3">{card.icon}</div>
-//         <h3 className="text-center bg-gradient-to-br from-white/20 to-white/10 p-8 text-xl font-black uppercase text-blue backdrop-blur-lg mt-3">
-//           {card.title}
-//         </h3>
-//         <h3 className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-center text-black backdrop-blur-lg">
-//           {card.description}
-//         </h3>
-//       </div>
-//     </div>
-//   );
-// };
 const Card = ({ card }) => {
   return (
     <div
       key={card.id}
-      className=" card-container group relative h-[400px] w-[350px] overflow-hidden bg-neutral-200 mx-auto cursor-pointer transform transition-all hover:bg-blue-500"
+      className=" card-container rounded-md  group relative h-[400px] w-[350px] overflow-hidden bg-neutral-200 mx-auto cursor-pointer transform transition-all hover:bg-blue-500"
     >
       <div
         style={{

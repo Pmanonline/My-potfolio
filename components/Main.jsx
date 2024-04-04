@@ -38,7 +38,7 @@ const Main = () => {
             <div>
               <Typed
                 // className="Typewriter1 text-[#9921e9]"
-                className=" text-[#5AFBD9] text-[45px] font-semibold mod:text-4xl"
+                className=" text-[#5AFBD9] text-[45px] font-semibold mod:text-4xl "
                 strings={[
                   "I'm a Full Stack Developer",
                   "I Love Software Development",

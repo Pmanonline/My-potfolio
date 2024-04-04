@@ -172,17 +172,29 @@ export const ProjectItem = ({
             <Modal modalDetail={modalDetail} />
           </div>
           <div className="flex  justify-center">
-            <Link href={projectUrl1}>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={modalDetail.projectUrl1}
+            >
               <p className="text-center py-3 rounded-lg font-bold text-white underline  text-lg cursor-pointer mr-7 ">
                 Site
               </p>
             </Link>
-            <Link href={projectUrl2}>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={modalDetail.projectUrl2}
+            >
               <p className="text-center py-3 rounded-lg font-bold text-white underline  text-lg cursor-pointer  mr-6">
                 Design
               </p>
             </Link>
-            <Link href={projectUrl3}>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={modalDetail.projectUrl3}
+            >
               <p className="text-center py-3 rounded-lg font-bold text-white underline  text-lg cursor-pointer m ">
                 Github
               </p>

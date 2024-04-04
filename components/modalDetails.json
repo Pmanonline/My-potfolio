@@ -3,36 +3,54 @@
     "id": 1,
     "title": "8thgear hub",
     "overview": "I built this application in React JS and is hosted on GitHub pages...",
-    "technologies": ["React", "Tailwind", "JavaScript", "Firebase", "IMDB API"]
+    "technologies": ["React", "Tailwind", "JavaScript", "Firebase", "IMDB API"],
+    "projectUrl1": "https://www.8thgearpartners.com/",
+    "projectUrl2": "https://www.figma.com/file/dQRcCqqu4vMXSb1XiL0Mfc/8thGear-Website-Design?type=design&node-id=0-1&mode=design&t=iY7bqJMbwCCo2aCM-0",
+    "projectUrl3": "https://github.com/8thGear-Tech/8thGearWebsite"
   },
   {
     "id": 2,
     "title": "inkeeper LMS",
     "overview": "This app features real-time cryptocurrency prices...",
-    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"],
+    "projectUrl1": "https://innkeeper.work/",
+    "projectUrl2": "https://www.figma.com/file/uJ3hZUB2zFctoHlNLeWcBZ/Innkeeper.work-app-project?type=design&node-id=1628-16&mode=design&t=iY7bqJMbwCCo2aCM-0",
+    "projectUrl3": "https://github.com/innkeeper-work/innkeeper_lms"
   },
   {
     "id": 3,
     "title": "mindAfrik",
     "overview": "This app features real-time cryptocurrency prices...",
-    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"],
+    "projectUrl1": "https://www.mindafrik.com/",
+    "projectUrl2": "https://www.figma.com/file/0vRxNjlds5FTodTUNIuL7K/mindAfrik-team-library?type=design&mode=design&t=iY7bqJMbwCCo2aCM-0",
+    "projectUrl3": "https://github.com/8thGear-Tech/MindAfrik"
   },
   {
     "id": 4,
     "title": "haven",
     "overview": "This app features real-time cryptocurrency prices...",
-    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"],
+    "projectUrl1": "https://www.haveneduservices.com/",
+    "projectUrl2": "https://www.figma.com/file/zIh8hzyXO78PprdNNfW3pg/Haven-website-design?type=design&node-id=837-24&mode=design&t=iY7bqJMbwCCo2aCM-0",
+    "projectUrl3": ""
   },
   {
     "id": 5,
     "title": "market Station",
     "overview": "This app features real-time cryptocurrency prices...",
-    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"],
+    "projectUrl1": "",
+    "projectUrl2": "",
+    "projectUrl3": ""
   },
   {
     "id": 6,
     "title": "Diamonf Heart technology",
     "overview": "This app features real-time cryptocurrency prices...",
-    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"]
+    "technologies": ["React", "Redux", "Chart.js", "CoinGecko API"],
+    "projectUrl1": "",
+    "projectUrl2": "",
+    "projectUrl3": ""
   }
 ]

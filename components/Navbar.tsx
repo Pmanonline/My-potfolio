@@ -8,6 +8,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { useRouter } from "next/router";
 import NavLogo1 from "../public/assets/navLogo1.png";
 import NavLogo2 from "../public/assets/navLogo2.png";
+import NavLogo3 from "../public/assets/navLogo3.png";
 
 export const Navimg = () => {
   return (
@@ -73,7 +74,7 @@ const Navbar = () => {
         <Link className={shadow ? "" : "hidden"} href="/">
           <li>
             <Image
-              src={NavLogo2}
+              src={NavLogo3}
               width="100"
               height="30"
               alt="/"
@@ -84,7 +85,7 @@ const Navbar = () => {
         <Link className={shadow ? "hidden " : ""} href="/">
           <li>
             <Image
-              src={NavLogo1}
+              src={NavLogo3}
               width="100"
               height="30"
               alt="/"
@@ -182,7 +183,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image src={NavLogo2} width="80" height="35" alt="/" />
+                <Image src={NavLogo3} width="80" height="35" alt="/" />
               </Link>
               <div
                 onClick={handleNav}
